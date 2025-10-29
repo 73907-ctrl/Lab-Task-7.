@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	double num1, num2,
+	char op;
+	cout<<"enter first number:";
+	cin>>num1; 
+	cout<<"enter operator (+,-,*,/,%):";
+	cin>>num2;
+	switch(op){
+		case'+';
+		cout<<"result:"<<num1+num2;
+		break;
+		case'-';
+		cout<<"result:"<<num1-num2;
+		break; case'*'
+		cout<<"result:"<<num1*num2;
+		break;
+		case'/';
+		cout<<"result:"<<num1/num2;
+		else 
+		cout<<"error!Division by zero.";
+		break;
+		case'%':
+			cout<<"result"<<num1%number2;
+			break;
+			default:cout<<"Invalid operator!";
+		}
+		return 0;
+	}
+		
+		
+
+	}

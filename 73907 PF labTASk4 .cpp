@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+int main()
+ {
+ int choice;
+  float num1, num2;
+
+ while (true) {
+        cout<< "\nMenu:\n";
+        cout<< "1. Add\n";
+        cout<< "2. Subtract\n";
+        cout<< "3. Exit\n";
+        cout<< "Enter your choice (1-3):";
+        cin>> choice;
+
+        switch(choice)
+		 {
+            case 1:
+                cout<<"Enter two numbers:";
+                cin>>num1 >> num2;
+                cout<<"Result =" <<num1+num2<<endl;
+                break;
+
+            case 2:
+                cout<<"Enter two numbers:";
+                cin >>num1>>num2;
+                cout<<"Result= "<< num1-num2<<endl;
+                break;
+
+            case 3:
+                cout<<"Exiting program...\n";
+                return 0;
+
+            default:
+                cout << "Invalid choice! Please try again.\n";
+			}
+		}
+	}
